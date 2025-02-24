@@ -18,15 +18,15 @@ if (c1 == "bike") :
 
 elif (c1 == "car") :
 
-    print("what kind of bike")
+    print("what kind of car")
     print("lambourgine\n")
     print("bugati\n")
 
     c3 = input("select you car")
-    if (c2 == "lamborgine") :
-        print("you have selected lambourgine")
+    if (c3 == "bugati") :
+        print("you have selected bugati")
     else :
-        print("you ahve selected bugati")
+        print("you have selected lambourgine")
 
 else :
     print("you have selected wrong option")
